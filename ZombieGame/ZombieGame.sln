@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombieGame", "ZombieGame\ZombieGame\ZombieGame.csproj", "{476D7978-92D2-47C4-89B2-1E9FD79E0415}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ZombieGameContent", "ZombieGame\ZombieGameContent\ZombieGameContent.contentproj", "{C767622D-9979-45D5-A85B-2C075840CAC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476D7978-92D2-47C4-89B2-1E9FD79E0415}.Debug|x86.ActiveCfg = Debug|x86
+		{476D7978-92D2-47C4-89B2-1E9FD79E0415}.Debug|x86.Build.0 = Debug|x86
+		{476D7978-92D2-47C4-89B2-1E9FD79E0415}.Release|x86.ActiveCfg = Release|x86
+		{476D7978-92D2-47C4-89B2-1E9FD79E0415}.Release|x86.Build.0 = Release|x86
+		{C767622D-9979-45D5-A85B-2C075840CAC3}.Debug|x86.ActiveCfg = Debug|x86
+		{C767622D-9979-45D5-A85B-2C075840CAC3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
