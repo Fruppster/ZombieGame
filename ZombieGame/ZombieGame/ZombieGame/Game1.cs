@@ -24,8 +24,6 @@ namespace ZombieGame
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
             base.Initialize();
         }
         protected override void LoadContent()
@@ -33,20 +31,20 @@ namespace ZombieGame
             spriteBatch = new SpriteBatch(GraphicsDevice);
         }
 
-        protected override void Update(GameTime gameTime)
+        protected override void Update(GameTime _gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            base.Update(gameTime);
+            base.Update(_gameTime);
         }
 
-        protected override void Draw(GameTime gameTime)
+        protected override void Draw(GameTime _gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
 
-            base.Draw(gameTime);
+            base.Draw(_gameTime);
         }
     }
 }
